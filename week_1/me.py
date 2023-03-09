@@ -1,3 +1,4 @@
+# 처음 코드
 def find_max_num(array):
   max = 0
   for i in range(len(array) - 1):
@@ -17,12 +18,12 @@ def find_max_num(array):
       max = max
     else:
       max = result
-      
+
   return max
 
 
+# model_answer.py 의 def find_max_num(array) 응용
 def find_max_num2(array):
-  # 이 부분을 채워보세요
   for num in array:
     num_idx = array.index(num)
     print(">> num : ", str(num))
