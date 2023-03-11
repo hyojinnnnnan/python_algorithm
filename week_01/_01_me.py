@@ -1,4 +1,8 @@
+#[01. 최댓값 찾기]
+
+
 # 처음 코드
+# model_answer.py 의 def find_max_num2(array) 와 비교해보기
 def find_max_num(array):
   max = 0
   for i in range(len(array) - 1):

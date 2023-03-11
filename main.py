@@ -1,25 +1,18 @@
-import week_1.me as me
-import week_1.model_answer as model_answer
+# .replit : run = "python3 main.py"
+'''
+.replit 이란 어떤 파일을 main 으로 지정하고 실행할 지 적는 config 파일인 셈입니다.
+run = "" 안에 들어가는 구문은 리눅스 OS에서 해당 파일을 run 시키는 bash명령어 입니다.
+'''
 
-input = [3, 5, 6, 1, 2, 4]
+input = "hello my name is jin"  # length : 20 / index : 0~19
+alphabet_occurrence_arr = [0] * 26
 
-print("[me.find_max_num]")
-print("-" * 50)
-result = me.find_max_num(input)
-print("=" * 50)
-print('>> Max Num is : ', str(result))
-print("=" * 50, end="\n")
 
-print("[me.find_max_num2]")
-print("-" * 50)
-result = me.find_max_num2(input)
-print("=" * 50)
-print('>> Max Num is : ', str(result))
-print("=" * 50, end="\n")
+def find_max_occurred_alphabet(p_string):
+  for idx in range(len(p_string)):
+    print(idx)
+  return "a"
 
-print("[model_answer.find_max_num]")
-print("-" * 50)
-result = model_answer.find_max_num(input)
-print("=" * 50)
-print('>> Max Num is : ', str(result))
-print("=" * 50, end="\n")
+
+result = find_max_occurred_alphabet(input)
+print(result)
