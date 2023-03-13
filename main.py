@@ -4,15 +4,4 @@
 run = "" 안에 들어가는 구문은 리눅스 OS에서 해당 파일을 run 시키는 bash명령어 입니다.
 '''
 
-input = "hello my name is jin"  # length : 20 / index : 0~19
-alphabet_occurrence_arr = [0] * 26
-
-
-def find_max_occurred_alphabet(p_string):
-  for idx in range(len(p_string)):
-    print(idx)
-  return "a"
-
-
-result = find_max_occurred_alphabet(input)
-print(result)
+# 1-5. 알고리즘과 친해지기 (2) >> 6:17 >> 강의에서 제공하는 답안을 들어보면서 내가 짠 코드랑 비교하기
